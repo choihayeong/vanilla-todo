@@ -59,6 +59,8 @@ setInterval(getClock ,1000);
 
 getDate();
 
+export const testFunc = (maxNum) => console.log(Math.floor(Math.random() * maxNum));
+
 // padStart()로 대체
 /* function twoDigits(ele) {
     if(ele < 10) {
